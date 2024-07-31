@@ -1,23 +1,23 @@
 const updatetime = () => {
   let d = new Date();
-  usa.innerHTML = d
+  los_angeles.innerHTML = d
     .toLocaleString("en-US", {
       timeZone: "America/Los_Angeles",
     })
     .split(", ")[1];
-  india.innerHTML = d
+  sydney.innerHTML = d
     .toLocaleString("en-US", {
-      timeZone: "Asia/Kolkata",
+      timeZone: "Australia/Sydney",
     })
     .split(", ")[1];
-  china.innerHTML = d
+  paris.innerHTML = d
     .toLocaleString("en-US", {
-      timeZone: "Asia/Shanghai",
+      timeZone: "Europe/Paris",
     })
     .split(", ")[1];
-  rassia.innerHTML = d
+  new_york.innerHTML = d
     .toLocaleString("en-US", {
-      timeZone: "Asia/Yekaterinburg",
+      timeZone: "America/New_York",
     })
     .split(", ")[1];
   london.innerHTML = d
@@ -25,7 +25,7 @@ const updatetime = () => {
       timeZone: "Europe/London",
     })
     .split(", ")[1];
-  japan.innerHTML = d
+  tokyo.innerHTML = d
     .toLocaleString("en-US", {
       timeZone: "Asia/Tokyo",
     })
