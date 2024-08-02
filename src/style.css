@@ -10,13 +10,13 @@ footer {
 }
 .grid-container {
   display: grid;
+  justify-content: center;
   grid-template-columns: 250px 250px;
 }
 .grid-item {
-  text-align: center;
   display: grid;
   width: 200px;
-  height: 100px;
+  height: 150px;
   border: 2px dotted rgb(0, 0, 0);
   padding: 10px;
   margin: 10px;
@@ -31,4 +31,17 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   text-align: center;
+}
+.city {
+  display: flexbox;
+  justify-content: center;
+  width: 250px;
+  background-color: rgba(243, 236, 236, 0);
+  opacity: 1;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
