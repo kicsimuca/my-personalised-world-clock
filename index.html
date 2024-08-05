@@ -10,47 +10,60 @@
     <title>World Clock</title>
   </head>
   <body>
-    <div class="container"></div>
-    <h1>World Clock 🕒</h1>
+    <div class="container">
+      <h1>World Clock 🕒</h1>
 
-    <select class="city" id="city">
-      <option value="">Select a city...</option>
-      <option value="current">My current location</option>
-      <option value="America/Toronto">Toronto 🇨🇦</option>
-      <option value="Asia/Bangkok">Bangkok 🇹🇭</option>
-      <option value="America/Chihuahua">Chihuahua 🇺🇸</option>
-    </select>
+      <select id="city">
+        <option value="">Select a city...</option>
+        <option value="current">My current location</option>
+        <option value="America/Toronto">Toronto 🇨🇦</option>
+        <option value="Asia/Bangkok">Bangkok 🇹🇭</option>
+        <option value="America/Chihuahua">Chihuahua 🇺🇸</option>
+      </select>
 
-    <div class="grid-container">
-      <div class="grid-item">
-        <h2>Sydney 🇦🇺</h2>
-        <div class="time" id="sydney"></div>
-        <div id="date1"></div>
-      </div>
-      <div class="grid-item">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="time" id="los_angeles"></div>
-        <div id="date2"></div>
-      </div>
-      <div class="grid-item">
-        <h2>Paris 🇫🇷</h2>
-        <div class="time" id="paris"></div>
-        <div id="date3"></div>
-      </div>
-      <div class="grid-item">
-        <h2>New York 🇺🇸</h2>
-        <div class="time" id="new_york"></div>
-        <div id="date4"></div>
-      </div>
-      <div class="grid-item">
-        <h2>London 🇬🇧</h2>
-        <div class="time" id="london"></div>
-        <div id="date5"></div>
-      </div>
-      <div class="grid-item">
-        <h2>Tokyo 🇯🇵</h2>
-        <div class="time" id="tokyo"></div>
-        <div id="date6"></div>
+      <div id="cities">
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
+        <div class="city" id="los_angeles">
+          <div>
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
+        <div class="city" id="buenos_aires">
+          <div>
+            <h2>Buenos Aires 🇦🇷</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
+        <div class="city" id="timbuktu">
+          <div>
+            <h2>Timbuktu 🇿🇦</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
+        <div class="city" id="costa_rica">
+          <div>
+            <h2>Costa Rica 🇨🇷</h2>
+            <div class="time"></div>
+          </div>
+          <div class="date"></div>
+        </div>
       </div>
     </div>
     <footer>
