@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url(pic2.jpg);
   font-family: sans-serif;
 }
 
@@ -20,14 +20,15 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+  background: transparent;
 }
 
 .container {
+  background: transparent;
   max-width: 600px;
-  margin: 60px auto;
-  background: white;
-  padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
@@ -61,5 +62,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: black;
 }
